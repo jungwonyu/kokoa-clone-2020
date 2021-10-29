@@ -1,0 +1,50 @@
+    <!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <link rel="stylesheet" href="css/style.css">
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Welocome to Jay's talk</title>
+    </head>
+    <body>
+        <div class="status-bar">
+            <div class="status-bar__column">
+                <span>No Service</span>
+                <!--https://fontawesome.com/에서 가져온 아이콘 i는 아이콘의 줄임 / 밑에 스크립트 지우면 활성화 되지 않음-->
+                <i class="fas fa-wifi"></i>
+                <!-- 
+                <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" viewBox="0 0 20 20" fill="currentColor">
+                    <path d="M2 11a1 1 0 011-1h2a1 1 0 011 1v5a1 1 0 01-1 1H3a1 1 0 01-1-1v-5zM8 7a1 1 0 011-1h2a1 1 0 011 1v9a1 1 0 01-1 1H9a1 1 0 01-1-1V7zM14 4a1 1 0 011-1h2a1 1 0 011 1v12a1 1 0 01-1 1h-2a1 1 0 01-1-1V4z" />
+                  </svg> -->
+                </div>
+            <div class="status-bar__column">
+                <span>04:22</span>
+            </div>
+            <div class="status-bar__column">
+                <span>100%</span>
+                <i class="fas fa-battery-full fa-lg"></i>
+                <i class="fas fa-bolt"></i>
+            </div>
+        </div>
+        
+        <header class="welcome-header">
+            <h1 class="welcome-header__title">Welcome to Kokoa Clone</h1>
+            <p class="welcome-header__text">
+                If you have a Kokoa Account, log in with your email or phone number.
+            </p>
+        </header>
+        
+        <form id="login-form">
+            <input type="text" placeholder="Email or phone number" />
+            <input type="password" placeholder="Password" />
+            <input type="submit" value="Log In" />
+            <a href="#">Find Kokoa Account or Password</a>
+        </form>
+        
+       
+        
+        <!-- 스크립트는 바디를 닫기 전 항상 마지막에 있어야 함 :)-->
+        <script src="https://kit.fontawesome.com/050483e6c4.js" crossorigin="anonymous"></script>
+    </body>
+    </html>
